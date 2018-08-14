@@ -5,7 +5,7 @@
 @description    For those who enjoy using lichess at night. Theme inspired by ANSI terminal look and feel.
 @author         Daniel Dugovic
 ==/UserStyle== */
-@-moz-document domain("lichess.org") {
+@-moz-document domain("lichess.org"), domain("lidraughts.org") {
     body.base .cg-board square.exploding1 {
         background-color: rgba(0, 255, 0, 0.5);
     }
