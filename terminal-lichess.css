@@ -31,6 +31,8 @@
     .cg-board-wrap coords.ranks {
         font-size: larger;
         font-weight: bold;
+    }
+    #lichess .cg-board-wrap coords.ranks {
         left: -16px;
     }
     #fpmenu .user,
