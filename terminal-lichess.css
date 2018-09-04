@@ -35,6 +35,10 @@
     #lichess .cg-board-wrap coords.ranks {
         left: -16px;
     }
+    #lidraughts .cg-board-wrap fieldnumber {
+        font-size: larger;
+        font-weight: bold;
+    }
     #fpmenu .user,
     #fpmenu .anon {
         padding-bottom: 24px
