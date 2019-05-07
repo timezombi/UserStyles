@@ -242,11 +242,11 @@
         font-size: 36px
     }
     body.dark #hooks_wrap .lobby_box th,
-    body.dark *:not(i):not(move):not(strong):not(.comment):not(.fen):not(.fen_pgn):not(.pgn) {
+    body.dark *:not(i):not(move):not(strong):not(.comment):not(.fen):not(.fen_pgn):not(.pgn):not(.trophy) {
         font-family: 'Liberation Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-weight: bold;
     }
-    body.dark *:not(coords):not(fieldnumber):not(i):not(move):not(strong):not(.comment):not(.fen):not(.fen_pgn):not(.pgn):not(.rclock):not(.time) {
+    body.dark *:not(coords):not(fieldnumber):not(i):not(move):not(strong):not(.comment):not(.fen):not(.fen_pgn):not(.pgn):not(.rclock):not(.time):not(.trophy) {
         letter-spacing: 0.02em;
         line-height: 145%
     }
