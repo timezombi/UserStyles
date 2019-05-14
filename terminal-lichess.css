@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Terminal Lichess
 @namespace      github.com/ddugovic/UserStyles
-@version        1.1.3
+@version        1.1.4
 @description    For those who enjoy using lichess at night. Theme inspired by ANSI terminal look and feel.
 @author         Daniel Dugovic
 ==/UserStyle== */
@@ -17,56 +17,6 @@
     body.dark square[data-coord-y]::before {
         color: #0F0 !important;
     }
-    #lichess div.lichess_game div.lichess_board_wrap {
-        position: relative;
-        padding-right: 0px;
-        padding-left: 8px;
-    }
-    .cg-board-wrap coords.files {
-        font-size: larger;
-        font-weight: bold;
-        bottom: -16px;
-        text-transform: lowercase;
-    }
-    .cg-board-wrap coords.ranks {
-        font-size: larger;
-        font-weight: bold;
-    }
-    #lichess .cg-board-wrap coords.ranks {
-        left: -16px;
-    }
-    #lichess div.round.cg-512 {
-        padding-left: initial
-    }
-    #lichess #start_buttons {
-        justify-content: initial;
-        width: 234px
-    }
-    #timeline {
-        height: auto !important
-    }
-    #hooks_wrap div.tabs,
-    #site_header > div.under_chat > #featured_game {
-        display: none
-    }
-    #daily_puzzle {
-        width: 224px;
-        position: absolute;
-        top: 267px;
-        left: 532px;
-    }
-    div.lichess_game div.lichess_ground {
-        padding-left: 15px
-    }
-    div.underboard .center {
-        padding-top: 10px
-    }
-    div.user_show div.content_box_inter.tabs {
-        margin: inherit;
-        padding: 4px 0px 0px 0px;
-        width: inherit;
-        border: none
-    }
     body.dark .scheduled td.name a,
     body.dark #enterable_simuls td.name a {
         color: #FF0 !important;
@@ -79,9 +29,6 @@
     body.dark #enterable_simuls td.name a [data-icon]::before {
         color: #FFF !important;
         text-shadow: none !important
-    }
-    body.dark div.game_infos > div.header {
-        white-space: nowrap
     }
     body.dark #tournament .time,
     body.dark #tournament table double,
