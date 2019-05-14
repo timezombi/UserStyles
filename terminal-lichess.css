@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Terminal Lichess
 @namespace      github.com/ddugovic/UserStyles
-@version        1.1.4
+@version        1.2.0
 @description    For those who enjoy using lichess at night. Theme inspired by ANSI terminal look and feel.
 @author         Daniel Dugovic
 ==/UserStyle== */
@@ -17,13 +17,13 @@
     body.dark square[data-coord-y]::before {
         color: #0F0 !important;
     }
+    body.dark span.title, body.dark strong {
+        text-shadow: none;
+    }
     body.dark .scheduled td.name a,
     body.dark #enterable_simuls td.name a {
         color: #FF0 !important;
         text-shadow: none !important
-    }
-    body.dark a [style] {
-        text-shadow: -1px -1px #000, -1px 1px #000, 1px -1px #000, 1px 1px #000 !important
     }
     body.dark .scheduled td.name a [data-icon]::before,
     body.dark #enterable_simuls td.name a [data-icon]::before {
