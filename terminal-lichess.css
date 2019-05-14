@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Terminal Lichess
 @namespace      github.com/ddugovic/UserStyles
-@version        1.1.2
+@version        1.1.3
 @description    For those who enjoy using lichess at night. Theme inspired by ANSI terminal look and feel.
 @author         Daniel Dugovic
 ==/UserStyle== */
@@ -193,7 +193,7 @@
     body.dark .button,
     body.dark a:not(#themepicker_toggle):not(.active):not(.win):not(.loss):not(.draw):not([style]) {
         text-shadow: -1px -1px #00F, -1px 1px #00F, 1px -1px #00F, 1px 1px #00F;
-        letter-spacing: 0.08em
+        letter-spacing: 0.06em
     }
     body.dark #tournament .user_link.long {
         letter-spacing: inherit
@@ -255,9 +255,6 @@
     body.dark #streams_on_air a.stream span,
     body.dark #timeline a {
         font-family: 'Liberation Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important
-    }
-    body.dark div.infos {
-        font-size: 14px
     }
     body.dark div.pdn, body.dark div.pgn {
         font-family: 'ChessSansPiratf', 'Liberation Mono', 'Roboto', Geneva, Verdana, sans-serif;
