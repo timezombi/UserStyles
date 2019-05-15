@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Terminal Lichess
 @namespace      github.com/ddugovic/UserStyles
-@version        1.2.1
+@version        1.2.2
 @description    For those who enjoy using lichess at night. Theme inspired by ANSI terminal look and feel.
 @author         Daniel Dugovic
 ==/UserStyle== */
@@ -80,6 +80,7 @@
     body.dark #lichess_message div.thread_message div.thread_message_body,
     body.dark div,
     body.dark div.ruser rating,
+    body.dark div.sub-ratings strong,
     body.dark div > span.title,
     body.dark .user-link,
     body.dark .vstext,
