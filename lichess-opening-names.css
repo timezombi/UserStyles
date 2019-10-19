@@ -1,0 +1,12 @@
+   /* ==UserStyle==
+@name           Lichess Opening Names
+@namespace      github.com/ddugovic/UserStyles
+@version        1.0
+@description    Displays opening names
+@author         Daniel Dugovic
+==/UserStyle== */
+.opening_box
+{
+    position: sticky;
+    top: 0;
+}
