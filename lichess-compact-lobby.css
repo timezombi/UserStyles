@@ -5,11 +5,14 @@
 @description    Hides leaderboard and tournament winners
 @author         Daniel Dugovic
 ==/UserStyle== */
-#main-wrap > main > div.lobby__tv,
-#main-wrap > main > div.lobby__leaderboard.lobby__box,
-#main-wrap > main > div.lobby__winners.lobby__box,
-#main-wrap > main > div.lobby__puzzle,
-#main-wrap > main > div.lobby__forum.lobby__box
+@-moz-document domain("lichess.org"), domain("lichess.dev")
 {
-    display: none;
+   #main-wrap > main > div.lobby__tv,
+   #main-wrap > main > div.lobby__leaderboard.lobby__box,
+   #main-wrap > main > div.lobby__winners.lobby__box,
+   #main-wrap > main > div.lobby__puzzle,
+   #main-wrap > main > div.lobby__forum.lobby__box
+   {
+       display: none;
+   }
 }
