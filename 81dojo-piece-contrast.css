@@ -12,11 +12,4 @@ div[class^="square"][style*="G"][style*='.png'] {
 div[class^="square"][style*="S"][style*='.png'] {
     filter: invert(100%)
 }
-
-div[class$="square-last"] {
-    box-shadow: 0px 0px 0px 2px #00FF00 inset;
-}
-div[class$="square-last"][style*="S"][style*='.png'] {
-    box-shadow: 0px 0px 0px 2px #FF00FF inset;
-}
 }
