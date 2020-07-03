@@ -1,0 +1,10 @@
+/* ==UserStyle==
+@name           Lichess Hide Ratings
+@namespace      github.com/ddugovic/UserStyles
+@version        1.0.0
+@description    Hides player ratings so you don't need to see them.
+@author         Daniel Dugovic
+==/UserStyle== */
+@-moz-document domain("lichess.org"), domain("lichess.dev") {
+rating, div.game__meta__players { display: none; }
+}
