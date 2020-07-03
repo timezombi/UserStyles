@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           Lichess Freedom
+@namespace      github.com/ddugovic/UserStyles
+@version        1.0.0
+@description    With liberty and justice for all.
+@author         Daniel Dugovic
+==/UserStyle== */
+@-moz-document domain("lichess.org"), domain("lichess.dev") {
+body div.eval-gauge {
+	background-color: #F00 !important}
+body div.eval-gauge .black {
+	background-color: #00F !important}
+body div.eval-gauge tick {
+	border-color: #000 !important}
+body div.eval-gauge tick.zero {
+	border-color: #FFF !important; opacity: 1 !important}
+}
