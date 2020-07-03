@@ -1,0 +1,17 @@
+/* ==UserStyle==
+@name           Lichess Fun House
+@namespace      github.com/ddugovic/UserStyles
+@version        1.0.0
+@description    Flips the board display in case you need an extra challenge.
+@author         Daniel Dugovic
+==/UserStyle== */
+@-moz-document domain("lichess.org"), domain("lichess.dev") {
+div.main-board {
+    -moz-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    transform: scaleX(-1);
+    -ms-filter: fliph; /*IE*/
+    filter: fliph; /*IE*/
+}
+}
