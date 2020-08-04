@@ -1,15 +1,15 @@
 /* ==UserStyle==
 @name           81Dojo Piece Contrast
 @namespace      github.com/ddugovic/UserStyles
-@version        1.0
+@version        1.1
 @description    Contrasts pieces of each player.
 @author         Daniel Dugovic
 ==/UserStyle== */
 @-moz-document domain("81dojo.com") {
-div[class^="square"][style*="G"][style*='.png'] {
+div[class^="square"][style*="G"][style*='.png']:not([style*="3x4_pieco"]):not([style*="dobutsu"]) {
     filter: contrast(200%)
 }
-div[class^="square"][style*="S"][style*='.png'] {
+div[class^="square"][style*="S"][style*='.png']:not([style*="3x4_pieco"]):not([style*="dobutsu"]) {
     filter: invert(100%)
 }
 }
