@@ -7,11 +7,11 @@
 ==/UserStyle== */
 @-moz-document domain("lichess.org"), domain("lichess.dev")
 {
-   #main-wrap > main > div.lobby__tv,
-   #main-wrap > main > div.lobby__leaderboard.lobby__box,
-   #main-wrap > main > div.lobby__winners.lobby__box,
-   #main-wrap > main > div.lobby__puzzle,
-   #main-wrap > main > div.lobby__forum.lobby__box
+   #main-wrap > main > .lobby__tv,
+   #main-wrap > main > .lobby__leaderboard.lobby__box,
+   #main-wrap > main > .lobby__winners.lobby__box,
+   #main-wrap > main > .lobby__puzzle,
+   #main-wrap > main > .lobby__forum.lobby__box
    {
        display: none;
    }
