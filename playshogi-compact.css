@@ -1,0 +1,16 @@
+   /* ==UserStyle==
+@name           Playshogi Compact
+@namespace      github.com/ddugovic/UserStyles
+@version        1.0
+@description    Collapses other elements to make room for a large board
+@author         Daniel Dugovic
+==/UserStyle== */
+@-moz-document domain("playshogi.com") {
+tr.top, tr.bottom, td.middleLeft, td.middleRight {
+    visibility: collapse;
+}
+
+div[style*="top: 2em"] {
+    top: 1em !important;
+}
+}
