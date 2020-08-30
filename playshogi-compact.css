@@ -5,7 +5,7 @@
 @description    Collapses other elements to make room for a large board
 @author         Daniel Dugovic
 ==/UserStyle== */
-@-moz-document domain("playshogi.com") {
+@-moz-document regexp("http://playshogi.com/#(ByoYomi:null|Openings.*|Tsume.*)") {
 tr.top, tr.bottom, td.middleLeft, td.middleRight {
     visibility: collapse;
 }
