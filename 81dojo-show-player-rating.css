@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name           81Dojo Show Player Rating
+@namespace      github.com/ddugovic/UserStyles
+@version        1.0
+@description    Shows ratings of players having long names.
+@author         Daniel Dugovic
+==/UserStyle== */
+@-moz-document url-prefix("http://81dojo.com/client/") {
+#player-info-mark {
+    white-space: nowrap;
+}
+}
