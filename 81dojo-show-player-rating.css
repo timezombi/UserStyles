@@ -6,7 +6,7 @@
 @author         Daniel Dugovic
 ==/UserStyle== */
 @-moz-document url-prefix("http://81dojo.com/client/") {
-#player-info-mark {
+#player-info-mark, #player-info-rate {
     white-space: nowrap;
 }
 }
