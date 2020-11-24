@@ -137,7 +137,7 @@
     body.dark .table_wrap > .clock > div:not(.bar),
     body.dark .undertable_inner,
     body.dark .lichess_ground .replay .turn .index,
-    body.dark .lishog_ground .replay .turn .index,
+    body.dark .lishogi_ground .replay .turn .index,
     body.dark .lichess_ground .variation,
     body.dark .lishogi_ground .variation {
         background: black !important
