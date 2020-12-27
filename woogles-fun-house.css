@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           Woogles Fun House
+@namespace      github.com/ddugovic/UserStyles
+@version        1.0.0
+@description    Flips the board display in case you need an extra challenge.
+@author         Daniel Dugovic
+==/UserStyle== */
+@-moz-document url-prefix("https://woogles.io/game") {
+div.board-spaces-container, div.rack, div.tile, div.coord-labels, p.coord-label {
+    -moz-transform: scale(-1);
+    -webkit-transform: scale(-1);
+    -o-transform: scale(-1);
+    transform: scale(-1);
+}
+}
