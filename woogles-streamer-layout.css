@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           Woogles Streamer Layout
+@namespace      github.com/ddugovic/UserStyles
+@version        1.0.0
+@description    Declutters and optimizes game page for livestream display.
+@author         Daniel Dugovic
+==/UserStyle== */
+@-moz-document url-prefix("https://woogles.io") {
+div.game-table, div.lobby {
+    padding: 0px;
+}
+
+div.data-area {
+    padding: 6px 0px 6px 12px;
+}
+}
