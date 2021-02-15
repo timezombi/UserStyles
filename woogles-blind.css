@@ -1,0 +1,12 @@
+/* ==UserStyle==
+@name           Woogles Blind
+@namespace      github.com/ddugovic/UserStyles
+@version        0.1.0
+@description    Conceals played tiles to partially implement a blind experience.
+@author         Daniel Dugovic
+==/UserStyle== */
+@-moz-document url-prefix("https://woogles.io/game") {
+div.tile[draggable=false]:not(.last-played) {
+    visibility: hidden;
+}
+}
