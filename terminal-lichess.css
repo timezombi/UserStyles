@@ -208,6 +208,10 @@
         letter-spacing: 0.02em;
         line-height: 145%
     }
+    body.dark #main-wrap .storm-dashboard__high__period,
+    body.dark #main-wrap .storm-dashboard__high__period span {
+        line-height: 400% !important
+    }
     body.dark #start_buttons a.button,
     body.dark #streams_on_air a.stream,
     body.dark #streams_on_air a.stream span,
