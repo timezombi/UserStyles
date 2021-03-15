@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Terminal Lichess (Lishogi)
 @namespace      github.com/ddugovic/UserStyles
-@version        1.2.6
+@version        1.2.7
 @description    For those who enjoy using lichess at night. Theme inspired by ANSI terminal look and feel.
 @author         Daniel Dugovic
 ==/UserStyle== */
@@ -80,7 +80,7 @@
     body.dark #lishogi_forum div.post .message,
     body.dark #lichess_message div.thread_message div.thread_message_body,
     body.dark #lishogi_message div.thread_message div.thread_message_body,
-    body.dark div,
+    body.dark div:not([class^="racer__race__player"]),
     body.dark div.ruser rating,
     body.dark div.sub-ratings strong,
     body.dark div > span.title,
@@ -200,7 +200,7 @@
         font-size: 36px
     }
     body.dark #hooks_wrap .lobby_box th,
-    body.dark *:not(i):not(move):not(strong):not(.comment):not(.fen):not(.fen_pgn):not(.pgn):not(.shield-trophy):not(.trophy) {
+    body.dark *:not(i):not(move):not(strong):not(.comment):not(.fen):not(.fen_pgn):not(.pgn):not([class^="racer__race__player"]):not(.shield-trophy):not(.trophy) {
         font-family: 'Liberation Sans', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-weight: bold;
     }
