@@ -1,8 +1,8 @@
 /* ==UserStyle==
-@name           Woogles Blind
+@name           Woogles Conceal
 @namespace      github.com/ddugovic/UserStyles
 @version        1.0.0
-@description    Conceals played tiles, turn list, and tiles in bag.
+@description    Conceals previously played tiles, turn list, and tiles in bag.
 @author         Daniel Dugovic
 ==/UserStyle== */
 @-moz-document url-prefix("https://woogles.io/game") {
