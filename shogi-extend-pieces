@@ -1,0 +1,25 @@
+/* ==UserStyle==
+@name           Shogi-Extend Pieces
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Custom pieces for shogi-extend.com
+@author         Daniel Dugovic
+==/UserStyle== */
+
+@-moz-document domain("shogi-extend.com") {
+    /* Insert code here... */
+    div.piece_P.promoted_false { background-image: url('https://raw.githubusercontent.com/Ka-hu/shogi-pieces/master/kanji_red_wood/0FU.svg') !important; }
+    div.piece_P.promoted_true { background-image: url('https://raw.githubusercontent.com/Ka-hu/shogi-pieces/master/kanji_red_wood/0TO.svg') !important; }
+    div.piece_L.promoted_false { background-image: url('https://raw.githubusercontent.com/Ka-hu/shogi-pieces/master/kanji_red_wood/0KY.svg') !important; }
+    div.piece_L.promoted_true { background-image: url('https://raw.githubusercontent.com/Ka-hu/shogi-pieces/master/kanji_red_wood/0NY.svg') !important; }
+    div.piece_N.promoted_false { background-image: url('https://raw.githubusercontent.com/Ka-hu/shogi-pieces/master/kanji_red_wood/0KE.svg') !important; }
+    div.piece_N.promoted_true { background-image: url('https://raw.githubusercontent.com/Ka-hu/shogi-pieces/master/kanji_red_wood/0NY.svg') !important; }
+    div.piece_S.promoted_false { background-image: url('https://raw.githubusercontent.com/Ka-hu/shogi-pieces/master/kanji_red_wood/0GI.svg') !important; }
+    div.piece_S.promoted_true { background-image: url('https://raw.githubusercontent.com/Ka-hu/shogi-pieces/master/kanji_red_wood/0NG.svg') !important; }
+    div.piece_G { background-image: url('https://raw.githubusercontent.com/Ka-hu/shogi-pieces/master/kanji_red_wood/0KI.svg') !important; }
+    div.piece_B.promoted_false { background-image: url('https://raw.githubusercontent.com/Ka-hu/shogi-pieces/master/kanji_red_wood/0KA.svg') !important; }
+    div.piece_B.promoted_true { background-image: url('https://raw.githubusercontent.com/Ka-hu/shogi-pieces/master/kanji_red_wood/0UM.svg') !important; }
+    div.piece_R.promoted_false { background-image: url('https://raw.githubusercontent.com/Ka-hu/shogi-pieces/master/kanji_red_wood/0HI.svg') !important; }
+    div.piece_R.promoted_true { background-image: url('https://raw.githubusercontent.com/Ka-hu/shogi-pieces/master/kanji_red_wood/0RY.svg') !important; }
+    div.piece_K { background-image: url('https://raw.githubusercontent.com/Ka-hu/shogi-pieces/master/kanji_red_wood/0OU.svg') !important; }
+}
