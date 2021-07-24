@@ -1,0 +1,13 @@
+/* ==UserStyle==
+@name           Studio-K Liberation Fonts
+@namespace      github.com/ddugovic/UserStyles
+@version        0.1.0
+@description    Use Liberation Fonts on Studio-K
+@author         Daniel Dugovic
+==/UserStyle== */
+
+@-moz-document domain("www.studiok-i.net") {
+    div {
+        font-family: 'Liberation Sans'
+    }
+}
