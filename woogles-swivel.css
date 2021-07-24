@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name           Woogles Swivel
+@namespace      github.com/ddugovic/UserStyles
+@version        0.1.0
+@description    Simulate real-life gameplay by hovering over the board
+@author         Daniel Dugovic
+==/UserStyle== */
+@-moz-document url-prefix("https://woogles.io/game") {
+div.board {
+    transition: transform 2.5s;
+    transform: rotate(-180deg);
+}
+
+div.board:hover {
+    transition: transform 2.5s;
+    transform: rotate(0deg);
+}
+}
