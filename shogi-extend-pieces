@@ -7,7 +7,6 @@
 ==/UserStyle== */
 
 @-moz-document domain("shogi-extend.com") {
-    /* Insert code here... */
     div.piece_P.promoted_false { background-image: url('https://raw.githubusercontent.com/Ka-hu/shogi-pieces/master/kanji_red_wood/0FU.svg') !important; }
     div.piece_P.promoted_true { background-image: url('https://raw.githubusercontent.com/Ka-hu/shogi-pieces/master/kanji_red_wood/0TO.svg') !important; }
     div.piece_L.promoted_false { background-image: url('https://raw.githubusercontent.com/Ka-hu/shogi-pieces/master/kanji_red_wood/0KY.svg') !important; }
