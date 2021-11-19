@@ -10,6 +10,9 @@
     .pocket {
         flex-wrap: wrap-reverse
     }
+    .pocket-top {
+        grid-area: auto
+    }
     .pocket-c1 {
         flex: 0 0 18%
     }
