@@ -1,0 +1,16 @@
+/* ==UserStyle==
+@name           Lishogi Large Pocket
+@namespace      github.com/openstyles/stylus
+@version        1.0.0
+@description    Enlarge captured pieces pocket for 720p display with large board
+@author         Daniel Dugoivc
+==/UserStyle== */
+
+@-moz-document domain("lishogi.org") {
+    .pocket {
+        flex-wrap: wrap-reverse
+    }
+    .pocket-c1 {
+        flex: 0 0 18%
+    }
+}
