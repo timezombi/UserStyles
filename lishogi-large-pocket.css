@@ -7,13 +7,12 @@
 ==/UserStyle== */
 
 @-moz-document domain("lishogi.org") {
-    .analyse .pocket, .round .pocket {
+    .analyse .pocket, .puzzle .pocket, .round .pocket {
         flex-wrap: wrap-reverse
     }
-    .analyse .pocket-top, .round .pocket-top {
+    .analyse .pocket-top, .puzzle .pocket-top, .round .pocket-top {
         --grid-area: auto
     }
-    .analyse .pocket-c1, .round .pocket-c1 {
+    .analyse .pocket-c1, .puzzle .pocket-c1, .round .pocket-c1 {
         flex: 0 0 18%
-    }
-}
+    }}
