@@ -1,0 +1,15 @@
+/* ==UserStyle==
+@name           81Dojo Move List Filter
+@namespace      github.com/ddugovic/UserStyles
+@description    Hide last 5 moves in move list
+@author         Daniel Dugovic
+@version        2022.2.19
+@license        CC-BY-SA-4.0
+@preprocessor   uso
+==/UserStyle== */
+
+@-moz-document url-prefix("http://81dojo.com/client/") {
+    #kifuGrid > tbody:nth-child(2) > tr:nth-last-child(-n+5) > td.dt-body-left {
+        visibility: hidden
+    }
+}
