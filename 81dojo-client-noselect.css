@@ -5,7 +5,7 @@
 @description    Disables selection of non-text elements.
 @author         Daniel Dugovic
 ==/UserStyle== */
-@-moz-document url-prefix("http://81dojo.com/client/") {
+@-moz-document url-prefix("http://81dojo.com/client"), url-prefix("https://81dojo.com/secure_client") {
 body {
     user-select: none;
 }

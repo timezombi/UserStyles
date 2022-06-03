@@ -8,7 +8,7 @@
 @preprocessor   uso
 ==/UserStyle== */
 
-@-moz-document url-prefix("http://81dojo.com/client/") {
+@-moz-document url-prefix("http://81dojo.com/client"), url-prefix("https://81dojo.com/secure_client") {
     td.sorting_1, #player-info-rate {
         visibility: hidden
     }

@@ -1,4 +1,4 @@
-@-moz-document url-prefix("http://81dojo.com/client/") {
+@-moz-document url-prefix("http://81dojo.com/client"), url-prefix("https://81dojo.com/secure_client") {
 body {
     overflow-x: hidden;
 }
@@ -24,7 +24,7 @@ div#layerLogin.layer div#layerLoginContents div.hbox div.left {
 #serverGrid {display:none;}
 
 #layerBoard, #layerLobby {
-    background: rgba(0, 0, 0, .15) url(http://81dojo.com/client/img/tatami.jpg)!important;
+    background: rgba(0, 0, 0, .15) url(https://81dojo.com/secure_client/img/tatami.jpg)!important;
     background-blend-mode: darken;
 }
 

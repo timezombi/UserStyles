@@ -5,7 +5,7 @@
 @description    Shows ratings of players having long names.
 @author         Daniel Dugovic
 ==/UserStyle== */
-@-moz-document url-prefix("http://81dojo.com/client/") {
+@-moz-document url-prefix("http://81dojo.com/client"), url-prefix("https://81dojo.com/secure_client") {
 #player-info-mark, #player-info-rate {
     white-space: nowrap;
 }
